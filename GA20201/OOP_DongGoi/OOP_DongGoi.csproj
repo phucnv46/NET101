@@ -7,8 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\OOP_DongGoi\OOP_DongGoi.csproj" />
-  </ItemGroup>
-
 </Project>

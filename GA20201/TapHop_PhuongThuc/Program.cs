@@ -42,7 +42,7 @@ namespace TapHop_PhuongThuc
             reals.Add(3);
             reals.Add(-25);
             reals.Add(142);
-            reals.Add(-34);
+            reals.Add(-34);z
 
             //Console.WriteLine("Số lượng phần tử của danh sách {0}", reals.Count);
 
