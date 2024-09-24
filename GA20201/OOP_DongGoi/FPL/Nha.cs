@@ -8,6 +8,6 @@ namespace OOP_DongGoi.FPL
 {
     internal class Nha
     {
-       
+      
     }
 }

@@ -29,7 +29,7 @@ namespace OOP_DongGoi
 
             get
             {
-                return Ho + Ten;
+                return Ho +" "+ Ten;
             }
         }
 
@@ -44,7 +44,41 @@ namespace OOP_DongGoi
 
         }
 
-        
+        private double _diem;
+
+
+        public double Diem
+        {
+            get { return _diem; }
+            set { _diem = value; }
+        }
+
+        public string HocLuc { 
+            get
+            {
+                if (Diem >= 9) { return "Xuất sắc"; }
+                else if (Diem>=7.5) { return "Giỏi"; }
+                else if (Diem >= 5 && Diem <= 6.5) { return "Trung bình"; }
+                else if(Diem>=5 && Diem<= 6.5) { return "Trung bình"; }
+                return "Yếu";
+            }
+                }
+
+
+        // Hành vi - Phương thức
+
+        public void XinChao()
+        {
+            Console.WriteLine("Xin chào, Tôi là {0}",HoVaTen);
+        }
+
+        public void HienThiThongTin()
+        {
+            Console.WriteLine("Thông tin sinh viên");
+            Console.WriteLine("Mã SV :{0} \nHọ và tên: {1}\nNgày sinh:{2:d} \nTuổi:{3}"
+                ,MaSV,HoVaTen,NgaySinh,Tuoi);
+
+        }
 
 
     }
