@@ -20,13 +20,21 @@ namespace OOP_DongGoi
             // Khai báo và in ra thông tin Sinh viên trường khác
             // Tạo lớp hình chữ nhật, mô tả và viết phương thức
 
-          /*  HinhChuNhat box = new();
-            box.ChieuDai = 1.5;
-            box.ChieuRong = 5;
-            box.HienThi();
-*/
+            /*  HinhChuNhat box = new();
+              box.ChieuDai = 1.5;
+              box.ChieuRong = 5;
+              box.HienThi();
+  */
 
-            Cho pitBull = new Cho() { Ten = "Nix", Gender =true, ChieuCao=1.34,CanNang= 30,MauLong="Đen",NamSinh=new DateTime(2023,12,3)};
+            Cho pitBull = new Cho()
+            {
+                Ten = "Nix",
+                Gender = true,
+                ChieuCao = 1.34,
+                CanNang = 30,
+                MauLong = "Đen",
+                NamSinh = new DateTime(2023, 12, 3)
+            };
             pitBull.Chay();
             pitBull.Sua();
 
