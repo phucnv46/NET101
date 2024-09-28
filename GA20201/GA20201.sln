@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TapHop_PhuongThuc", "TapHop
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_DongGoi", "OOP_DongGoi\OOP_DongGoi.csproj", "{344612B3-2B8E-4314-BF38-6B637C7E6AF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai7_TapHop_Objects", "Bai7_TapHop_Objects\Bai7_TapHop_Objects.csproj", "{C96321DB-928F-4491-BBDF-EB34525BCFC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bai7_TapHop_Objects", "Bai7_TapHop_Objects\Bai7_TapHop_Objects.csproj", "{C96321DB-928F-4491-BBDF-EB34525BCFC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai8_KeThua", "Bai8_KeThua\Bai8_KeThua.csproj", "{C59AB41E-E950-48AC-8D62-6A2EE689EBB5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{C96321DB-928F-4491-BBDF-EB34525BCFC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C96321DB-928F-4491-BBDF-EB34525BCFC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C96321DB-928F-4491-BBDF-EB34525BCFC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C59AB41E-E950-48AC-8D62-6A2EE689EBB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C59AB41E-E950-48AC-8D62-6A2EE689EBB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C59AB41E-E950-48AC-8D62-6A2EE689EBB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C59AB41E-E950-48AC-8D62-6A2EE689EBB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
