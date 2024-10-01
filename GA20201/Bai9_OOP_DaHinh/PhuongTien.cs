@@ -8,6 +8,7 @@ namespace Bai9_OOP_DaHinh
 {
     internal class PhuongTien
     {
+        public string Ma { get; set; }
         public virtual void Chay() // Sử dụng từ khóa virtual để xác định phương thức sẽ b
             //ghi đè trong tương lại, nếu không ghi đè sử dụng khai báo mặc định
            
