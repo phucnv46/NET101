@@ -30,6 +30,10 @@ namespace Bai8_KeThua
             cho.SoLuongVu = 8;
 
             cho.HienThi();
+
+            ChoCon choCon = new();
+            string ss= choCon.SinhSan();
+            Console.WriteLine(ss);
         }
     }
 }

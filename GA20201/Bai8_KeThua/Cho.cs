@@ -14,7 +14,7 @@ namespace Bai8_KeThua
         public string GiongCho { get; set; } = "Chó cỏ";
 
 
-        public new string SinhSan()
+        public new string SinhSan() 
         {
             return "Đẻ con";
         }
