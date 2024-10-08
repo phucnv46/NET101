@@ -10,7 +10,7 @@ namespace Lab5_6
     {
         public override void HienThi()
         {
-            Console.WriteLine($"Id:{Id}, Tên động cơ: {Ten} , Trạng thái: {TrangThai}");
+            Console.WriteLine($"Động cơ Điện Id:{Id}, Tên động cơ: {Ten} , Trạng thái: {TrangThai}");
         }
 
         public override void KhoiDong()

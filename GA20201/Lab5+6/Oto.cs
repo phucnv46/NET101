@@ -20,7 +20,7 @@ namespace Lab5_6
         {
             if(DongCo != null &&  DongCo is DongCoXang)
             {
-                Console.WriteLine("Chạy bằng động cơ xăng");
+                Console.WriteLine($"Xe {Id} chạy bằng động cơ xăng");
             }
             else if(DongCo == null)
             {
@@ -28,7 +28,7 @@ namespace Lab5_6
             }
             else
             {
-                Console.WriteLine("Chạy bằng động cơ điện");
+                Console.WriteLine($"Xe {Id} chạy bằng động cơ Điện");
             }
         }
 
